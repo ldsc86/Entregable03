@@ -1,0 +1,93 @@
+.header {
+    position: relative;
+    height: 70dvh;
+    background-image: url('/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    background-color: #00000030;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+}
+
+.container {
+    padding-inline: 1em;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.logo-container {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-bg {
+    width: 400px;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: auto;
+    transform: translate(-46%, -50%);
+    opacity: 0.9;
+
+}
+
+.portal-piso {
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    width: 350px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.ram-logo {
+    position: absolute;
+    left: 50%;
+    top: 11%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.mrm-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 180px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.error {
+    text-align: center;
+    margin: 0;
+    color: #fb9999;
+    font-size: small;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding-top: 3em;
+        padding-bottom: 1.5em;
+    }
+
+    .container {
+        padding-inline: 1em;
+    }
+}
